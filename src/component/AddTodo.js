@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Button, TextField } from "@mui/material";
-import "../component/todos.css"
+
 class AddTodo extends Component {
     // A local react state of the this component with a content property set to nothing.
     constructor() {
@@ -47,6 +47,7 @@ class AddTodo extends Component {
         onClick={this.handleSubmit}
         variant="contained"
         color="primary"
+        data-testid="new-item-button"
       >
         Add
       </Button> 
