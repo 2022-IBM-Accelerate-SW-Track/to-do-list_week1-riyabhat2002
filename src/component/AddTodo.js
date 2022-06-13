@@ -41,6 +41,7 @@ class AddTodo extends Component {
         variant="outlined"
         onChange={this.handleChange}
         value = {this.state.content}
+        data-testid="new-item-input"
       />
       <Button
         style={{ marginLeft: "10px" }}
